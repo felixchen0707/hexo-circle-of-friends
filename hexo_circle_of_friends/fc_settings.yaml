@@ -56,10 +56,10 @@ GITEE_FRIENDS_LINKS: {
 # get links from github
 # 从github issue中获取友链
 GITHUB_FRIENDS_LINKS: {
-    enable: false, # true 开启github issue兼容
-    type: "normal",  # volantis/stellar用户请在这里填写volantis
-    owner: "ccknbc",  # 填写你的github用户名
-    repo: "ccknbc-actions",  # 填写你的github仓库名
+    enable: true, # true 开启github issue兼容
+    type: "volantis",  # volantis/stellar用户请在这里填写volantis
+    owner: "felixchen0707",  # 填写你的github用户名
+    repo: "friendLink_api",  # 填写你的github仓库名
     state: "open",  # 填写抓取的issue状态(open/closed)
 }
 
